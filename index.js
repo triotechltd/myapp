@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('GitOps Working by ahad khalid')
+  res.send('GitOps Working by ahad khalid khan')
 })
 
 app.listen(3000, () => {
